@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -17,25 +18,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="spiderman"
-            android:id="@+id/spiderman"
+            android:id="@+id/rdo_spiderman"
             />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="venom"
-            android:id="@+id/venom"
+            android:id="@+id/rdo_venom"
             />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="miles"
-            android:id="@+id/miles"
+            android:id="@+id/rdo_miles"
             />
 
     </RadioGroup>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivOut"
+        />
 
 
 </LinearLayout>
